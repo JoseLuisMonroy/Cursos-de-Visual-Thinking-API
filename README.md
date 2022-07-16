@@ -11,7 +11,7 @@
 <p> Se optó por usar esta dependencia debido al choque que hay con las pruebas unitarias automatizadas por GitHub y windows.</p><br>
 <h2>Linter</h2> 
     <p>Linter se ocupa para dar un formato y estilo más uniforme al proyecto.</p>
-    <p>El archivo de configuración de linter lo puedes consultar <a href="./eslintrc.js">aquí</a>.</p>
+    <p>El archivo de configuración de linter lo puedes consultar <a href="https://github.com/JoseLuisMonroy/Cursos-de-Visual-Thinking-API/blob/main/.eslintrc.js">aquí</a>.</p>
 <h2>Express</h2>
     <p>Express juega el papel de un servidor web para probar el API y con ello lograr crear los endpoints.</p>
 
