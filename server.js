@@ -14,3 +14,8 @@ app.get("/v1/students", (req, res) => {
     const students = partnerController.getPartners();
     res.send(students);
 });
+
+app.get("/v1/students/emails", (req, res) => {
+    const emails = partnerController.getParnerMail();
+    res.send(emails);
+});
