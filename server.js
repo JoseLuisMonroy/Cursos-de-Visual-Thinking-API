@@ -19,3 +19,8 @@ app.get("/v1/students/emails", (req, res) => {
     const emails = partnerController.getParnerMail();
     res.send(emails);
 });
+
+app.get("/v1/students/credits", (req, res) => {
+    const credits = partnerController.getPartnersByCredits();
+    res.send(credits);
+});
