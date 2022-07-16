@@ -4,7 +4,9 @@
     "description": "API para los cursos de visual thinking",
     "main": "index.js",
     "scripts": {
-        "test": "jest"
+        "test": "jest",
+        "linter": "node ./node_modules/eslint/bin/eslint.js .",
+        "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix"
     },
     "repository": {
         "type": "git",
@@ -18,5 +20,8 @@
     "homepage": "https://github.com/JoseLuisMonroy/Cursos-de-Visual-Thinking-API#readme",
     "dependencies": {
         "jest": "^28.1.3"
+    },
+    "devDependencies": {
+        "eslint": "^8.19.0"
     }
 }
