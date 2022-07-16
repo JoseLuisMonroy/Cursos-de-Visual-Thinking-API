@@ -1,4 +1,4 @@
-### API para los alumnos de visual partner-ship
+# API para los alumnos de visual partner-ship
 
 ## Dependencias
 <ul>
@@ -21,33 +21,34 @@
 ## Descarga del proyecto 
 Para tener el proyecto en tu ordenador realiza los siguientes pasos:
     Realiza un fork de este rpositorio
-En la terminal ejecuta el siguiente comando (sustituyendo username por tu usuario en gitHub)
-    ```
-    git clone https://github.com/[username]/Cursos-de-Visual-Thinking-API
-    ```
-En la terminal ejecuta el siguiente comando
-    ```
-    cd Cursos-de-Visual-Thinking-API
-    ```
-Instala las dependencias con los siguientes comandos
-    ```
-    npm init -y
-    ```
-    ```
-    npm install jest --save
-    ```
-    ```
-    npm install eslint --save-dev
-    ```
-    ```
-    npm install express --save
-    ```
-    ```
-    npm init @eslint/config
-    ```
+En la terminal ejecuta el siguiente comando (sustituyendo username por tu usuario en gitHub)<br>
+```
+git clone https://github.com/[username]/Cursos-de-Visual-Thinking-API
+```
+En la terminal ejecuta el siguiente comando<br>
+```
+cd Cursos-de-Visual-Thinking-API
+```
+Instala las dependencias con los siguientes comandos<br>
+```
+npm init -y
+```
+```
+npm install jest --save
+```
+```
+npm install eslint --save-dev
+```
+```
+npm install express --save
+```
+```
+npm init @eslint/config
+```
 
 <h2>Pruebas unitarias</h2>
 Para correr las pruebas unitarias se ejecuta el siguiente comando
+
 ```
 npm test --all
 ```
