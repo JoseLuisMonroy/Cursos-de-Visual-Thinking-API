@@ -1,0 +1,19 @@
+{
+  "name": "cursos-de-visual-thinking-api",
+  "version": "1.0.0",
+  "description": "API para los cursos de visual thinking",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseLuisMonroy/Cursos-de-Visual-Thinking-API.git"
+  },
+  "author": "Jose Monroy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseLuisMonroy/Cursos-de-Visual-Thinking-API/issues"
+  },
+  "homepage": "https://github.com/JoseLuisMonroy/Cursos-de-Visual-Thinking-API#readme"
+}
