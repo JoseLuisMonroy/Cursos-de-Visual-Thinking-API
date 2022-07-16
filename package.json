@@ -2,7 +2,7 @@
     "name": "cursos-de-visual-thinking-api",
     "version": "1.0.0",
     "description": "API para los cursos de visual thinking",
-    "main": "index.js",
+    "main": "server.js",
     "scripts": {
         "test": "jest",
         "linter": "node ./node_modules/eslint/bin/eslint.js .",
@@ -19,6 +19,7 @@
     },
     "homepage": "https://github.com/JoseLuisMonroy/Cursos-de-Visual-Thinking-API#readme",
     "dependencies": {
+        "express": "^4.18.1",
         "jest": "^28.1.3"
     },
     "devDependencies": {
