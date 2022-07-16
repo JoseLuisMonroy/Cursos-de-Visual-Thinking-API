@@ -1,4 +1,4 @@
-const ExplorerController = require("./controllers/explorerController");
+const partnerController = require("./lib/controllers/partnerController");
 const express = require("express");
 const app = express();
 
@@ -10,6 +10,7 @@ app.listen(port, () => {
     console.log(`Example app listening on port ${port}`);
 });
 
-app.get("/", (req, res) => {
-    res.send("Hello World!");
+app.get("/v1/students", (req, res) => {
+    const students = partnerController.getPartners();
+    res.send(students);
 });
